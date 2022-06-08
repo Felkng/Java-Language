@@ -1,34 +1,22 @@
-package primeiros_passos;
+package Java_iniciaçao;
 
-public class Tabela_boleana_da_verdade {
-    public static void main(String[] args) {
+public class tabela_booleana_da_verdade 
+{
+    public static void main(String[] args) 
+    {
         boolean q, p;
         System.out.println("\tP\tQ\tAND\tOR\tXOR\tNOT");
         q = true;
         p = true;
-        if((q & p) == true | (q | p) == true | (p ^ q) == true | (!p) == true)
-        System.out.print("\t1");
-        else
-        System.out.print("\t0");
-        //System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
-        (p&q); (p|q); (p^q); (!p);
-        System.out.println("");
+        System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
         p = true;
         q = false;
-        //System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
-        (p&q); (p|q); (p^q); (!p);
-        System.out.println("");
+        System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
         p = false;
         q = true;
-        (p&q); (p|q); (p^q); (!p);
-        System.out.println("");
-        //System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
-        (p&q); (p|q); (p^q); (!p);
-        System.out.println("");
+        System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
         p = false;
         q = false;
-        (p&q); (p|q); (p^q); (!p);
-        System.out.println("")
-        //System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
+        System.out.println(p + "\t" + q + "\t" + (p & q) + "\t" + (p | q) + "\t" + (p ^ q) + "\t" + (!p));
     }
 }
