@@ -7,8 +7,8 @@ public class fibonacciEmVetor {
         int i;
         Scanner scanner = new Scanner(System.in);
         input = scanner.nextInt();
-        int fibo[] = new int[input];
-        for(i=0;i<input;i++){
+        int fibo[] = new int[60];
+        for(i=0;i<60;i++){
             if(i==0)
                 fibo[i] = 0;
             else if(i==1)
